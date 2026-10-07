@@ -55,7 +55,6 @@ class _LayarTambahState extends State<LayarTambah> {
             controller: _namaController,
             decoration: const InputDecoration(
               labelText: 'Nama langganan',
-              border: OutlineInputBorder(),
             ),
           ),
           const SizedBox(height: 16),
@@ -65,7 +64,6 @@ class _LayarTambahState extends State<LayarTambah> {
             decoration: const InputDecoration(
               labelText: 'Harga total per bulan',
               prefixText: 'Rp ',
-              border: OutlineInputBorder(),
             ),
           ),
           const SizedBox(height: 16),
@@ -74,7 +72,6 @@ class _LayarTambahState extends State<LayarTambah> {
             keyboardType: TextInputType.number,
             decoration: const InputDecoration(
               labelText: 'Tanggal tagihan (1-31)',
-              border: OutlineInputBorder(),
             ),
           ),
           const SizedBox(height: 16),
@@ -83,7 +80,6 @@ class _LayarTambahState extends State<LayarTambah> {
             decoration: const InputDecoration(
               labelText: 'Nama anggota',
               helperText: 'Pisahkan dengan koma, cth: Saya, Andi, Budi',
-              border: OutlineInputBorder(),
             ),
           ),
           const SizedBox(height: 24),
